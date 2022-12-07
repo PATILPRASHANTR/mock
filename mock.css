@@ -1,0 +1,117 @@
+.colour{
+    
+    background-color: rgb(150, 247, 190);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+  
+}
+.flex-items1{
+    width: 200px;
+    height: 200px;
+    background-color: forestgreen;
+    margin: 40px 60px;
+    transition: all 2s ease-in-out;
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-duration: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+ 
+.flex-items1:hover{
+        border-radius: 100%;
+        background-color: rgb(43, 226, 125);
+        
+    }
+
+
+
+.flex-items2{
+    width: 200px;
+    height: 200px;
+    background-color: forestgreen;
+    margin: 40px 60px;
+    transition: all 2s ease-in-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-duration: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    
+}
+.flex-items2:hover{
+    border-radius: 100% 0% 100% 0%;
+    transform: rotate(180deg)
+    
+    
+
+}
+.flex-items3{
+    width: 200px;
+    height: 200px;
+    background-color: forestgreen;
+    margin: 40px 60px;
+    transition: all 2s ease-in-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-duration: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+.flex-items3:hover{
+    border-radius: 100% 20% 100% 20%;
+    transform: rotate(360deg)
+
+    
+
+}
+.flex-items4{
+    width: 200px;
+    height: 200px;
+    background-color: forestgreen;
+    margin: 40px 60px;
+    transition: all 2s ease-in-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-duration: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+.flex-items4:hover{
+    border-radius: 0% 100% 0% 100%;
+    
+
+}
+.image{
+    width:600px;
+    height:250px;
+    animation-timing-function: ease-out;
+}
+.image:hover{
+    width:1200px;
+
+}
+.font:hover{
+    font-size: 20px;
+    font-style: italic;
+}
+.style:hover{
+    left:0;
+    width:20%
+}
+.style:hover:after{
+animation:animate 0.2s 1.1s ease 1 both;
+font-style: oblique;
+}
+    
